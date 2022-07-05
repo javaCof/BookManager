@@ -52,6 +52,24 @@
     <Compile Include="BookRegistForm.Designer.cs">
       <DependentUpon>BookRegistForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BookRemoveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookRemoveForm.Designer.cs">
+      <DependentUpon>BookRemoveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookReviseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookReviseForm.Designer.cs">
+      <DependentUpon>BookReviseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookSearchForm.Designer.cs">
+      <DependentUpon>BookSearchForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +80,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BookRegistForm.resx">
       <DependentUpon>BookRegistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookRemoveForm.resx">
+      <DependentUpon>BookRemoveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookReviseForm.resx">
+      <DependentUpon>BookReviseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookSearchForm.resx">
+      <DependentUpon>BookSearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
