@@ -12,6 +12,8 @@ namespace BookManager
 {
     public partial class MainMenuForm : Form
     {
+        Library library = new Library();
+
         public MainMenuForm()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace BookManager
 
         private void BookAddButton_Click(object sender, EventArgs e)
         {
-            BookRegistForm frm = new BookRegistForm();
+            BookRegistForm frm = new BookRegistForm(library);
             frm.ShowDialog(this);
         }
 

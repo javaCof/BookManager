@@ -10,9 +10,11 @@ namespace BookManager
     {
         Dictionary<string, Book> books = new Dictionary<string, Book>();
 
-        public void AddBook(Book book)
+        public bool AddBook(Book book)
         {
-            
+            if (books.ContainsKey(book.Isbn)) return false;
+            books[book.Isbn] = book;
+            return true;
         }
     }
 }

@@ -12,13 +12,23 @@ namespace BookManager
 {
     public partial class BookRegistForm : Form
     {
-        public BookRegistForm()
+        Library library;
+
+        public BookRegistForm(Library library)
         {
+            this.library = library;
             InitializeComponent();
         }
 
         private void CommitButton_Click(object sender, EventArgs e)
         {
+            if (IsbnTextBox.Text == "" || BookNameTextBox.Text == "" || PublisherTextBox.Text == ""
+                || BookTypeTextBox.Text == "" || PriceTextBox.Text == "")
+            {
+                //field empty!
+                return;
+            }
+
             Book book = new Book();
             book.Isbn = IsbnTextBox.Text;
             book.Name = BookNameTextBox.Text;
@@ -26,7 +36,15 @@ namespace BookManager
             book.Type = BookTypeTextBox.Text;
             book.Price = Convert.ToInt32(PriceTextBox.Text);
             book.RegistTime = DateTime.Now;
+
+            if (!library.AddBook(book))
+            {
+                //failed to add book (duplicate key)
+            }
+
             
+
+            this.Close();
         }
     }
 }
