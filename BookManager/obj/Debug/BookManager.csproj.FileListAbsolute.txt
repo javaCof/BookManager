@@ -1,0 +1,15 @@
+D:\workspace\git\BookManager\BookManager\bin\Debug\BookManager.exe.config
+D:\workspace\git\BookManager\BookManager\bin\Debug\BookManager.exe
+D:\workspace\git\BookManager\BookManager\bin\Debug\BookManager.pdb
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.csproj.AssemblyReference.cache
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.csproj.SuggestedBindingRedirects.cache
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.BookRegistForm.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.BookRemoveForm.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.BookReviseForm.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.BookSearchForm.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.MainMenuForm.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.Properties.Resources.resources
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.csproj.GenerateResource.cache
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.csproj.CoreCompileInputs.cache
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.exe
+D:\workspace\git\BookManager\BookManager\obj\Debug\BookManager.pdb

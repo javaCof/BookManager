@@ -90,7 +90,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.MainTitleText);
             this.Name = "BookSearchForm";
-            this.Text = "BookSearchForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

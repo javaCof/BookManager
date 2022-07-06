@@ -150,6 +150,7 @@
             this.CommitButton.TabIndex = 12;
             this.CommitButton.Text = "완료";
             this.CommitButton.UseVisualStyleBackColor = true;
+            this.CommitButton.Click += new System.EventHandler(this.CommitButton_Click);
             // 
             // BookRegistForm
             // 

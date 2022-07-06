@@ -16,5 +16,17 @@ namespace BookManager
         {
             InitializeComponent();
         }
+
+        private void CommitButton_Click(object sender, EventArgs e)
+        {
+            Book book = new Book();
+            book.Isbn = IsbnTextBox.Text;
+            book.Name = BookNameTextBox.Text;
+            book.Publisher = PublisherTextBox.Text;
+            book.Type = BookTypeTextBox.Text;
+            book.Price = Convert.ToInt32(PriceTextBox.Text);
+            book.RegistTime = DateTime.Now;
+            
+        }
     }
 }
